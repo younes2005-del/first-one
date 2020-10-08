@@ -32,8 +32,8 @@ body{
 }
 h1{
     color: hsl(300, 43%, 22%);
-    font-size: 0.1em;
-    margin-bottom: 40pt;
+    font-size: 40pt;
+    margin-bottom: 15px;
     font-family: "bold_one";
 }
 .ha p{
