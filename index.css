@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "police";
+    src: url("static/Spartan-Regular.ttf") format("truetype");
+
+  }
+
+  @font-face {
+    font-family: "bold_one";
+    src: url("static/Spartan-Bold.ttf") format("truetype");
+    
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "police";
+    position: relative;
+
+}
+
+
+body{
+    background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+    background-repeat:no-repeat, no-repeat;
+    background-size: auto, cover;
+}
+.ha{
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 40pt;
+    margin-bottom: 15px;
+    font-family: "bold_one";
+}
+.ha p{
+    color: #B9B1B6;
+}
+
+.Rating{
+   background-color: #f7f2f8; 
+   margin: 10px;
+   display: flex;
+   margin: 20px;
+   padding: 15px;
+   border-radius: 7px;
+   width: 440px;
+
+}
+
+.Rating p{
+    font-family: "bold_one";
+    color: hsl(300, 43%, 22%);
+ 
+}
+
+#Reviews{
+    margin-left: 200px;
+}
+
+#Guru{
+    margin-left: 250px;
+}
+
+
+#BestTech{
+    margin-left: 300px;
+}
+
+.txt{
+    height: 10%;
+    width: 40%;             
+}
+.stars{
+    margin-right: 30px;
+}
+
+.Rating p{
+    font-size: 15px;
+    color: #492446;
+}
+
+
+.post{
+    background-color: #522050;
+    border-radius: 10px;
+    width: 350px;
+    margin: 30px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 7.5px;
+    margin-bottom: 0;
+    padding: 30px;
+    height: 235px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+    
+}
+
+.avatar{
+    border-radius: 100%;
+    height: 30px;
+}
+
+.Perso{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    font-size: 15px;
+}
+
+
+.Info{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.post p{
+    color: #D3AED4;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15pt;
+}
+.Perso p{
+    color: #FFEDFF;
+    
+}
+
+#colton{
+    margin-top: 75px;
+}
+
+#irene{
+    margin-top: 90px;
+
+}
+
+#Anne{
+    margin-top: 105px;
+}
+
+@media(max-width : 375px){
+    .posts{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .ha{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      
+    }
+
+    .Rating{
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+    #Reviews{
+        margin-left: 0;
+    }
+    
+    #Guru{
+        margin-left: 0;
+    }
+    
+    
+    #BestTech{
+        margin-left: 0;
+    }
+    
+    body{
+        background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
+        background-repeat:no-repeat, no-repeat;
+        background-size: auto, cover;
+    }
+    .post{
+        width: auto;
+        margin: 20px;
+
+    }
+    .txt{
+        height: auto;
+        width: auto;             
+    }
+   
+    
+    #irene{
+        margin-top: 0;
+    
+    }
+    
+    #Anne{
+        margin-top: 0;
+    }
+
+}
